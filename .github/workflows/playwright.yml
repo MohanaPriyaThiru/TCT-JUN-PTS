@@ -5,10 +5,12 @@ permissions:
   contents: write
 
 on:
-  push:
-    branches: [main, master]
+  #push:
+  # branches: [main, master]
   # pull_request:
   #  branches: [main, master]
+  schedule:
+    - cron: "58 8 * * *"
 
 jobs:
   test:
@@ -40,6 +42,8 @@ jobs:
       # Install Playwright browsers
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
+      - name: Clean previous allure results
+        run: rm -rf allure-results allure-report
 
       # Run tests (don't fail pipeline)
       - name: Run Playwright tests
@@ -51,7 +55,7 @@ jobs:
       - name: Generate Allure Report
         if: always()
         run: |
-          allure generate allure-results -o allure-report --clean ||true
+          allure generate allure-results --clean -o allure-report ||true
 
       # Debug step (VERY IMPORTANT for troubleshooting)
       - name: Debug Allure Files
