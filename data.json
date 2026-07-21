@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "+1-555-123-4567",
+    "address": "123 Maple Street, Springfield",
+    "gender": "Female"
+  },
+  {
+    "name": "Bob Kumar",
+    "email": "bob.kumar@example.com",
+    "phone": "+91-98765-43210",
+    "address": "45 Rose Avenue, Chennai",
+    "gender": "Male"
+  }
+]

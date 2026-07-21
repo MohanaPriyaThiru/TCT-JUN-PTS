@@ -1,0 +1,13 @@
+200
+OK
+{
+  bookingid: 3596,
+  booking: {
+    firstname: 'Mohanapriya',
+    lastname: 'Thiruvengadam',
+    totalprice: 1000,
+    depositpaid: true,
+    bookingdates: { checkin: '2026-01-02', checkout: '2026-01-03' },
+    additionalneeds: 'Breakfast'
+  }
+}

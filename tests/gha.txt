@@ -1,0 +1,7 @@
+devp--->built--->QA
+QA--->tc/ts---testing---git
+devops--->dev-SC--unit testing(dev)-->built-->tester(ts)--->passed--deploy
+
+
+
+vm---<source-->nodejs -->nodemoudels--->3 browser-->test run -->report--->all installled dep and broswer delete --VM close --- nothing
