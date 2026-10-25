@@ -1,3 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6668","verify Cat1","chromium","2026-10-24","passed","2026-10-24","","rsEcom.spec.ts","",""
-"","6439","POM","chromium","2026-10-24","passed","2026-10-24","","rsEcom.spec.ts","",""
+"","6258","POM","chromium","2026-10-25","passed","2026-10-25","","rsEcom.spec.ts","",""
+"","6318","verify Cat1","chromium","2026-10-25","passed","2026-10-25","","rsEcom.spec.ts","",""
